@@ -2,7 +2,7 @@ import { router } from "expo-router";
 import * as React from "react";
 import { Appbar, Text } from "react-native-paper";
 
-export default function EsqueciMinhaSenhaScreen() {
+export default function SettingsScreen() {
   return (
     <>
       <Appbar.Header>
@@ -11,7 +11,7 @@ export default function EsqueciMinhaSenhaScreen() {
             router.push("/");
           }}
         />
-        <Appbar.Content title="Esqueci Minha Senha" />
+        <Appbar.Content title="Configuraçoes" />
       </Appbar.Header>
     </>
   );

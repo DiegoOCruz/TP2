@@ -1,12 +1,11 @@
-import { Text } from "react-native-paper";
-
+import { Appbar, Text } from "react-native-paper";
 
 export default function DashBoardScreen() {
   return (
     <>
-      <Text>Dashboard</Text>
+      <Appbar.Header>
+        <Appbar.Content title="Dashboard" />
+      </Appbar.Header>
     </>
   );
 }
-
-

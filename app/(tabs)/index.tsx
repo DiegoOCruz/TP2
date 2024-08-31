@@ -1,12 +1,11 @@
-import { Text } from "react-native-paper";
-
+import { Appbar, Text } from "react-native-paper";
 
 export default function HomeScreen() {
   return (
     <>
-      <Text variant="displayLarge">Home</Text>
+      <Appbar.Header>
+        <Appbar.Content title="Home" />
+      </Appbar.Header>
     </>
   );
 }
-
-

@@ -1,12 +1,11 @@
-import { Text } from "react-native-paper";
-
+import { Appbar, Text } from "react-native-paper";
 
 export default function PerfilScreen() {
   return (
     <>
-      <Text>Perfil</Text>
+      <Appbar.Header>
+        <Appbar.Content title="Perfil" />
+      </Appbar.Header>
     </>
   );
 }
-
-

@@ -1,10 +1,12 @@
 import * as React from 'react';
-import { Text } from 'react-native-paper';
+import { Appbar } from 'react-native-paper';
 
 export default function NotFoundScreen() {
   return (
     <>
-      <Text variant="displayLarge">Login</Text>
+      <Appbar.Header>
+        <Appbar.Content title="Login" />
+      </Appbar.Header>
     </>
   );
 }
